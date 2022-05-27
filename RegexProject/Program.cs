@@ -14,7 +14,12 @@ namespace RegexProject
             Paterns paterns = new Paterns();
             Console.WriteLine("Enter First Name:");
             string firstName=Console.ReadLine();    
-            paterns.ValidFirstName(firstName);  
+            paterns.ValidFirstName(firstName);
+
+            Console.WriteLine("Enter Last Name:");
+            string LastName = Console.ReadLine();
+            paterns.ValidFirstName(LastName);
+
         }
     }
     
