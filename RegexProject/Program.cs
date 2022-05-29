@@ -18,7 +18,17 @@ namespace RegexProject
 
             Console.WriteLine("Enter Last Name:");
             string LastName = Console.ReadLine();
-            paterns.ValidFirstName(LastName);
+            paterns.ValidLastName(LastName);
+
+            Console.WriteLine("Enter Email_id:");
+            string Email_id = Console.ReadLine();
+            paterns.ValidEmail_Id(Email_id);
+
+            Console.WriteLine("Enter phoneNo:");
+           string Phone = Console.ReadLine().Trim();
+           paterns.ValidPhoneNO(Phone);
+
+
 
         }
     }
