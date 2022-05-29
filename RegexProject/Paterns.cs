@@ -14,7 +14,7 @@ namespace RegexProject
         Regex regex0=new Regex("^[A-z]{1}[A-Za-z]*$");
         Regex regex1=new Regex("^[A-Za-z0-9+_.-]+@[a-zA-Z0-9.-]+$");
         Regex regex2 = new Regex("^[0-9]{2}[_][0-9]{10}$");
-        Regex regex3 = new Regex("^[A-Z]{1,}[A-z0-9a-z@#&*+]{8,}$");
+        Regex regex3 = new Regex("^[A-Z]{1,}[0-9A-Za-z!@#%&*-^]{6,}[0-9]{1,}$");
 
 
 
