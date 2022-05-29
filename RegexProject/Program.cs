@@ -28,6 +28,10 @@ namespace RegexProject
            string Phone = Console.ReadLine().Trim();
            paterns.ValidPhoneNO(Phone);
 
+            Console.WriteLine("Enter password:");
+            string Password1 = Console.ReadLine().Trim();
+            paterns.ValidPhoneNO(Password1);
+
 
 
         }
